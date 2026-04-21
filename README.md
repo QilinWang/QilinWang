@@ -5,7 +5,7 @@ series forecasting with tools from optimal transport.
 
 ### 🔭 Current work
 
-- **FERN** — a novel, robust probabilistic forecasting framework via Brenier maps on 
+- **Fern** — a novel, robust probabilistic forecasting framework via Brenier maps on 
   SPSD Jacobians, with transparent eigenstructure and O(Rn) parameterization.
 - Technical director on a glaucoma research collaboration with Shenzhen 
   Eye Hospital. National Natural Science Foundation of China (NSFC) 
@@ -33,4 +33,4 @@ for everything else — data pipelines, dashboards, serving.
 
 ### Next step
 
-Migrating FERN inference to Burn.
+Migrating Fern inference to Burn.
