@@ -1,0 +1,7 @@
+# Output of the reflection-chain precision benchmark, 2026-10-13 00:35 mtl (America/Montreal, UTC-04:00), RTX 4070 Laptop.
+# One chain = rotate, multiply by a scale, rotate back, with the gradients of x, the vectors and the scale. Random inputs; no training.
+# loop = the PyTorch loop (householder_backend torch); kernel = python/fern/models/components/reflection_chain.py. Reference: the kernel in float64.
+# Time: median of 15 calls after 3 warm-up calls, torch.cuda.synchronize() around each. The process was capped at 42 % of the card.
+== 32 draws, 192 reflections, one 192-step block: x [95, 32, 1, 1, 192], R=192
+float32   loop   |    65.79 ms | peak extra memory    895.3 MiB | relative error vs float64: value 6.0e-07, grad x 5.9e-07, grad u 1.4e-06, grad scale 5.9e-07
+float32   kernel |     2.49 ms | peak extra memory     36.3 MiB | relative error vs float64: value 5.9e-07, grad x 5.8e-07, grad u 1.7e-06, grad scale 5.8e-07
