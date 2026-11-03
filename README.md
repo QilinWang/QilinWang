@@ -1,36 +1,40 @@
 ## About me 👋
 
-ML researcher in Montréal. I work on probabilistic and geometric time 
-series forecasting with tools from optimal transport.
+I'm an ML researcher in Montréal working on time-series forecasting,
+uncertainty, and evaluation under changing conditions. I like building both
+models and the tools that make their behavior easier to inspect.
 
-### 🔭 Current work
+### Research and projects
 
-- **Fern** — a novel, robust probabilistic forecasting framework via Brenier maps on 
-  SPSD Jacobians, with transparent eigenstructure and O(Rn) parameterization.
-- Technical director on a glaucoma research collaboration with Shenzhen 
-  Eye Hospital. National Natural Science Foundation of China (NSFC) 
-  grant in progress.
-- Collaboration with economists at Xiamen University on agentic 
-  applications in economics.
+- **[Fern](https://fern-forecasting.netlify.app/)** — a geometric approach to
+  time-series forecasting. My single-author paper,
+  [Ellipsoidal Time Series Forecasting](https://arxiv.org/abs/2505.17370),
+  appeared at ICML 2026. The paper evaluates point forecasts; the later
+  [Noise Titration preprint](https://arxiv.org/abs/2603.22219) studies
+  probabilistic forecasting and evaluation.
+- **[SERIE](https://github.com/QilinWang/serie)** — a Python toolkit for
+  exploring time-series data under controlled changes and observation noise.
+  Explore the [attractor demo](https://qilinwang.github.io/serie/).
+- **[Fern: retired implementations](https://github.com/QilinWang/fern-retired)**
+  — archived C# and Rust research infrastructure, with notes on what replaced
+  it and which tests need external dependencies.
+- **NPC village** — a simulation project with a C# world and a Godot client,
+  exploring characters, places, memory and social information. Development
+  uses AI coding agents alongside human direction and review.
 
-### 😄 Side project
+### Collaborations
 
-- **NPC project** — a Rust-based simulation engine for emergent-narrative 
-  NPCs, with LLM-driven dialogue grounded in a structured world-state model.
-  Built largely via spec-driven, AI-assisted development.
+- Technical director on a glaucoma research collaboration with Shenzhen Eye
+  Hospital, including a National Natural Science Foundation of China grant
+  proposal.
+- Collaboration with economists at Xiamen University on agentic applications
+  in economics.
 
-### Stack
+### Tools and interests
 
-Python / PyTorch for research training. Rust (Axum, Leptos, sqlx, ndarray) 
-for everything else — data pipelines, dashboards, serving.
+My research uses Python and PyTorch. The projects also include Gleam/Erlang
+experiment infrastructure, C#/Godot simulation, and archived Rust tools.
+I'm continuing to learn about Rust, GPU kernels and agentic systems.
 
-### 🌱 Currently learning
-
-- **Rust ecosystem**: Leptos, Burn, Axum, ratatui
-- **GPU kernels**: Triton, TileLang / cuTile
-- **Agentic systems**: LLM-driven simulation
-- Karpathy's nano-series
-
-### Next step
-
-Migrating Fern inference to Burn.
+[Fern website](https://fern-forecasting.netlify.app/) ·
+[LinkedIn](https://www.linkedin.com/in/qilin11/)
