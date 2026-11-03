@@ -4,6 +4,11 @@ I'm an ML researcher in Montréal working on time-series forecasting,
 uncertainty, and evaluation under changing conditions. I like building both
 models and the tools that make their behavior easier to inspect.
 
+**Start here:** [Fern paper and code](https://github.com/QilinWang/Fern-icml2026) ·
+[SERIE demo](https://qilinwang.github.io/serie/) ·
+[GPU kernel case study](showcase/householder-kernel.md) ·
+[Retired infrastructure](https://github.com/QilinWang/fern-retired)
+
 ### Research and projects
 
 - **[Fern](https://fern-forecasting.netlify.app/)** — a geometric approach to
@@ -21,6 +26,17 @@ models and the tools that make their behavior easier to inspect.
 - **NPC village** — a simulation project with a C# world and a Godot client,
   exploring characters, places, memory and social information. Development
   uses AI coding agents alongside human direction and review.
+
+### GPU engineering: a measured optimization
+
+[![Householder transform microbenchmark comparing a PyTorch loop and Triton rotations](assets/householder-microbenchmark.png)](showcase/householder-kernel.md)
+
+I wrote Fern's first fused Triton kernel and directed an AI-assisted rewrite.
+On one recorded RTX 4070 Laptop microbenchmark, the PyTorch loop and revised
+Triton rotations took **65.79 ms vs 2.49 ms** for the measured forward and
+backward operation. [See the workload, memory comparison, numerical check and
+AI contribution](showcase/householder-kernel.md). The numbers describe that
+operator workload, not full-model training.
 
 ### Collaborations
 
