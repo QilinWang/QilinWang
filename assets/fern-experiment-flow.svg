@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650" role="img" aria-labelledby="title description">
+  <title id="title">Fern experiment system: one real study from card to accepted results</title>
+  <desc id="description">A study card for an Ornstein–Uhlenbeck series with history 192, horizon 192, and two configurations proceeds through a retained compiled study, Home scheduling, CUDA execution, and two accepted Home result documents. This is an explanatory reconstruction, not a complete queue-event replay.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7c90a7"/></marker>
+  </defs>
+  <rect width="1600" height="650" rx="22" fill="#101a27"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="56" y="58" fill="#60d9c0" font-size="19" font-weight="700" letter-spacing="2">FERN / EXPERIMENT SYSTEM</text>
+    <text x="56" y="110" fill="#f3f7fb" font-size="38" font-weight="700">One study: from configuration to acceptance</text>
+    <text x="56" y="150" fill="#b4c2d3" font-size="20">Historical OU experiment · two configurations · Home observed 2026-11-03</text>
+    <g fill="#172638" stroke="#40576f" stroke-width="1.5">
+      <rect x="45" y="215" width="270" height="235" rx="15"/>
+      <rect x="355" y="215" width="270" height="235" rx="15"/>
+      <rect x="665" y="215" width="270" height="235" rx="15"/>
+      <rect x="975" y="215" width="270" height="235" rx="15"/>
+      <rect x="1285" y="215" width="270" height="235" rx="15"/>
+    </g>
+    <g stroke="#7c90a7" stroke-width="3" marker-end="url(#arrow)">
+      <line x1="319" y1="332" x2="348" y2="332"/>
+      <line x1="629" y1="332" x2="658" y2="332"/>
+      <line x1="939" y1="332" x2="968" y2="332"/>
+      <line x1="1249" y1="332" x2="1278" y2="332"/>
+    </g>
+    <g fill="#60d9c0" font-size="16" font-weight="700" letter-spacing="1">
+      <text x="67" y="250">01 / DECLARE</text><text x="377" y="250">02 / COMPILE</text><text x="687" y="250">03 / SCHEDULE</text><text x="997" y="250">04 / EXECUTE</text><text x="1307" y="250">05 / ACCEPT</text>
+    </g>
+    <g fill="#f3f7fb" font-size="24" font-weight="700">
+      <text x="67" y="292">Study card</text><text x="377" y="292">Compiled study</text><text x="687" y="292">Home</text><text x="997" y="292">Site + Python</text><text x="1307" y="292">Home results</text>
+    </g>
+    <g fill="#c6d3e1" font-size="18">
+      <text x="67" y="334">OU synthetic series</text><text x="67" y="367">History 192 / horizon 192</text><text x="67" y="400">Two model configurations</text>
+      <text x="377" y="334">Gleam compiler path</text><text x="377" y="367">Revision 532d8dfe61f4</text><text x="377" y="400">Two resolved configs</text>
+      <text x="687" y="334">Study 3638 · urgent</text><text x="687" y="367">Machine eligibility limited</text><text x="687" y="400">Home owns queue facts</text>
+      <text x="997" y="334">CUDA in result records</text><text x="997" y="367">34 / 39 recorded epochs</text><text x="997" y="400">50-epoch configured max</text>
+      <text x="1307" y="334">2 / 2 cells accepted</text><text x="1307" y="367">Two result documents</text><text x="1307" y="400">Scientific review separate</text>
+    </g>
+    <line x1="56" y1="500" x2="1544" y2="500" stroke="#40576f"/>
+    <text x="56" y="542" fill="#d1dce8" font-size="19">Qilin: research and scheduling decisions · Claude Opus 5.5: card construction and registration coordination</text>
+    <text x="56" y="579" fill="#aebfd0" font-size="17">A reconstruction from a retained configuration, Home state and result records; not a complete queue-event replay.</text>
+    <text x="56" y="610" fill="#aebfd0" font-size="17">Acceptance records an execution/result state; it is not a scientific conclusion. Machine identities and raw outputs are omitted.</text>
+  </g>
+</svg>
