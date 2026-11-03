@@ -24,9 +24,6 @@ models and the tools that make their behavior easier to inspect.
 
 ### Collaborations
 
-- Technical director on a glaucoma research collaboration with Shenzhen Eye
-  Hospital, including a National Natural Science Foundation of China grant
-  proposal.
 - Collaboration with economists at Xiamen University on agentic applications
   in economics.
 
