@@ -9,7 +9,7 @@ models and the tools that make their behavior easier to inspect.
 - **[Fern](https://fern-forecasting.netlify.app/)** — a geometric approach to
   time-series forecasting. My single-author paper,
   [Ellipsoidal Time Series Forecasting](https://arxiv.org/abs/2505.17370),
-  appeared at ICML 2026. The paper evaluates point forecasts; the later
+  appeared at ICML 2026. The paper evaluates point forecasts; the
   [Noise Titration preprint](https://arxiv.org/abs/2603.22219) studies
   probabilistic forecasting and evaluation.
 - **[SERIE](https://github.com/QilinWang/serie)** — a Python toolkit for
