@@ -19,7 +19,7 @@
 
 **Fern** — my single-author [ICML 2026 paper](https://arxiv.org/abs/2505.17370) evaluates point forecasts. The separate [Noise Titration preprint](https://arxiv.org/abs/2603.22219) studies probabilistic forecasting and evaluation.
 
-**[SERIE](https://github.com/QilinWang/serie)** — explore time-series data under controlled changes and observation noise. [Try the attractor demo](https://qilinwang.github.io/serie/).
+**[SERIE](https://github.com/QilinWang/serie)** — explore time-series data under controlled changes and observation noise. [Try the attractor demo](https://qilinwang.github.io/serie/) · [Rust data tool](https://github.com/QilinWang/serie-rs).
 
 ## From models to systems
 
