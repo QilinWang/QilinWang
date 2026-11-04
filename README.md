@@ -3,7 +3,7 @@
 **ML research · time-series forecasting · uncertainty · research engineering**  
 **[ICML 2026 · single-author paper](https://arxiv.org/abs/2505.17370)** · Montréal · [LinkedIn](https://www.linkedin.com/in/qilin11/)
 
-[Fern code](https://github.com/QilinWang/Fern-icml2026) · [SERIE: interactive demo](https://qilinwang.github.io/serie/) · [GPU case study](showcase/householder-kernel.md) · [Experiment system case study](showcase/fern-experiment-system.md)
+[Fern code](https://github.com/QilinWang/Fern-icml2026) · [SERIE: interactive demo](https://qilinwang.github.io/serie/) · [GPU case study](showcase/householder-kernel.md) · [Experiment system case study](showcase/fern-experiment-system.md) · [Stage flow and design](showcase/stages-and-boundaries.md)
 
 <a href="https://fern-forecasting.netlify.app/">
 <picture>
