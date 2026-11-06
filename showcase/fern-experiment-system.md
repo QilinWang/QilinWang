@@ -8,6 +8,14 @@ system.
 
 ![A five-step diagram: a study card is compiled, registered and scheduled by Home, executed through a Site and Python, and returned to Home as two accepted result documents.](../assets/fern-experiment-flow.png)
 
+## Operating scale
+
+In one historical campaign, I ran **more than 1,000 ablation experiments over
+3–4 days** across local and rented GPUs. This is my reported operating
+experience, not a new count of accepted cells or a benchmark of the current
+platform. The study traced below is a separate, inspectable example of the
+configuration-to-result workflow.
+
 ## One real study
 
 The selected study used a synthetic Ornstein–Uhlenbeck time series and two Fern
