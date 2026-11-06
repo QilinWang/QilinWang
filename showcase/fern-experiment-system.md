@@ -8,6 +8,13 @@ system.
 
 ![A five-step diagram: a study card is compiled, registered and scheduled by Home, executed through a Site and Python, and returned to Home as two accepted result documents.](../assets/fern-experiment-flow.png)
 
+## Dispatch and automated execution
+
+After a configured study is compiled and registered, eligible GPU workers
+claim independent experiment cells, execute their configured stages and return
+result documents. Multiple workers can run different cells across local and
+rented GPUs.
+
 ## Operating scale
 
 In one historical campaign, I ran **more than 1,000 ablation experiments over
